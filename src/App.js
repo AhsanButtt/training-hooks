@@ -9,6 +9,7 @@ import { createContext } from "react";
 import UseRefComponent from "./components/UseRefComponent";
 import UseReducerComponent from "./components/UseReducerComponent";
 import UseMemoComponent from "./components/UseMemoComponent";
+import UseCallbackParent from "./components/UseCallbackParent";
 
 export const NameContext = createContext();
 export const ChannelContext = createContext();
@@ -32,7 +33,9 @@ function App() {
 
       {/* <UseReducerComponent /> */}
 
-      <UseMemoComponent />
+      {/* <UseMemoComponent /> */}
+
+      <UseCallbackParent />
     </div>
   );
 }
